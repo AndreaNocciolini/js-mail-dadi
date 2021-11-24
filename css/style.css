@@ -4,14 +4,21 @@
     box-sizing: border-box;
 }
 
-html {
-    background-image: linear-gradient(to right top, #007f16, #2b9e19, #4cbe19, #6dde13, #91ff00);
-}
-
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1em;
+    font-size: 1.4em;
     height: 100vh;
 }
+
+/* Background Color */
+.validity-true {
+    background-image: linear-gradient(to right top, #007f16, #2b9e19, #4cbe19, #6dde13, #91ff00);
+}
+
+.validity-false {
+    background-image: linear-gradient(to right top, #550000, #7c220e, #a44313, #c96614, #eb8c12);
+}
+/* End Background Color */
