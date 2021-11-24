@@ -3,3 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    background-image: linear-gradient(to right top, #007f16, #2b9e19, #4cbe19, #6dde13, #91ff00);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    height: 100vh;
+}
