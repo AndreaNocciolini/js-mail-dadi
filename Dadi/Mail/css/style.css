@@ -12,14 +12,40 @@
     gap: 1em;
     font-size: 1.4em;
     height: 100vh;
-    background-image: linear-gradient(to right top, #04c014, #00c764, #00cc98, #00cdbe, #03cdd6);
-}
+    background-image: linear-gradient(to right top, #00ff12, #00ff8b, #00ffcc, #6ffff3, #c3fdff, #c8f4ff, #dee8ff, #f3dcf8, #f8bee5, #ff9dc4, #ff7c96, #fb5f5f);}
 
 #container {
     display: flex;
     justify-content: space-around;
     font-size: 1.2em;
     width: 50%;
+}
+
+.dice {
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dice-1 {
+    background-image: url(../img/pngwing.com.png);
+}
+
+.dice-2 {
+    background-image: url(../img/pngwing2.com.png);
+}
+.dice-3 {
+    background-image: url(../img/pngwing3.com.png);
+}
+.dice-4 {
+    background-image: url(../img/pngwing4.com.png);
+}
+.dice-5 {
+    background-image: url(../img/pngwing5.com.png);
+}
+.dice-6 {
+    background-image: url(../img/pngwing6.com.png);
 }
 
 #computer {
